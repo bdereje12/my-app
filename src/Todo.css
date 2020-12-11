@@ -1,0 +1,10 @@
+.toDox{
+    display: block;
+    margin: 8px;
+  }
+  #info {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    align-content: center;
+  }

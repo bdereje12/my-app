@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+#container {
+  display: inline-block;
+  text-align: center;
+  width: 800px;
+  height: 700px;
+  margin-top: 60px;
+  margin-left: 400px;
+  border: dashed;
+  border-radius: 15%;
+  border-color: red;
+  overflow: scroll;
+}
+h1, h3{
+  font-family: fantasy;
+}
+h1{
+  font-style: italic;
+  font-size: 30px;
+  text-decoration: underline;
+  position: sticky;
+}
+h3{
+  font-size: 170%;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  * {
+      font-size: 8px;
+      width: 30%;
+  }
+}
