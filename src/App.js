@@ -3,7 +3,7 @@ import './App.css';
 import Todo from './Todo';
 
 // function App() {
-  class Todo extends Component (){
+  class App extends Component (){
     render(){
       return (
           // <div className="App">
